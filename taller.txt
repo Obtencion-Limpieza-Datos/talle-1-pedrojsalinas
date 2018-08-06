@@ -1,0 +1,41 @@
+Unificar los siguientes archivos en un solo dataset: xaa.csv  xab.csv  xac.csv  xad.csv  xae.csv  xaf.csv  xag.csv
+
+- Al atributo peso tranformarlo a un tipo de datos float
+- Obtener un dataset en base a un cantón de nacimiento del siguiente listado (usted debe generar
+un combobox)
+
+u'Salinas', u'Santa Elena', u'Guayaquil', u'La Libertad',u'Mejia', u'Pangua', u'Sigchos
+
+- Obtener un dataset que permita obtener todos los nacimientos mayores al día 15 y que pertenezcan a una provincia de la región costa (usted debe generar
+un combobox o varios)
+
+- Obtener un dataset que permita obtener todos los nacimientos en base a la selección del tipo de parto y las provincias de la sierra (usted debe generar
+un combobox o varios)
+
+- Obtener un gráfico que me permita vizualizar los nacimientos en base al atributo tipo_instruccion
+
+
+- Obtener un gráfico que me permita vizualizar los nacimientos en base al atributo tipo_parto
+
+
+- Obtener un gráfico que me permita vizualizar los nacimientos en base al atributo tipo_parto
+
+
+- Obtener un gráfico que me permita vizualizar los nacimientos en base al atributo residencia
+
+- Crear un nuevo dataset, que permita cambiar la opción "Sin información" de la columna mes_insc, todos los registros "Sin información" o " ", debe ser pasados al mes de Diciembre; luego genear un gráfico en base al mes de inscripcion.
+
+
+
+
+----
+[u'prov_insc', u'cant_insc', u'parr_insc', u'anio_insc', u'mes_insc',
+       u'dia_insc', u'fecha_insc', u'sexo', u'anio_nac', u'mes_nac',
+       u'dia_nac', u'fecha_nac', u'talla', u'peso', u'sem_gest', u'tipo_part',
+       u'apgar1', u'apgar5', u'p_emb', u'lugar_ocur', u'prov_nac', u'cant_nac',
+       u'parr_nac', u'area_nac', u'asis_por', u'nac_mad', u'cod_pais',
+       u'anio_mad', u'mes_mad', u'dia_mad', u'fecha_mad', u'edad_mad',
+       u'con_pren', u'num_emb', u'num_par', u'hij_viv', u'hij_vivm',
+       u'hij_nacm', u'etnia', u'est_civil', u'niv_inst', u'sabe_leer',
+       u'prov_res', u'cant_res', u'parr_res', u'area_res', u'residente']
+
